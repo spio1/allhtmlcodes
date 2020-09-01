@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	left: 0;
+	right: 0;
+	top: 0;
+	position: fixed;
+
+}
+header ul{
+	text-align: center;
+	
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+}
+header button{
+	float: right;
+	margin-right: 5px;
+}
+
+header input{
+	float: right;
+}
+main{
+	width: 98%;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 89px;
+	background-color: gray;
+	color: #fff;
+}
+
+.page1{
+	width: 24%;
+	height: 400px;
+	/*background-color: blue;*/
+	margin: 7px;
+	float: left;
+	text-align: center;
+}
+.page1 p{
+	text-align: justify;
+}
+.page2{
+	width: 24%;
+	height: 400px;
+	/*background-color: blue;*/
+	margin: 7px;
+	float: left;
+	text-align: center;
+}
+.page2 p{
+	text-align: justify;
+}
+.page3{
+	width: 24%;
+	height: 400px;
+	/*background-color: blue;*/
+	margin: 7px;
+	float: left;
+	text-align: center;
+}
+.page3 p{
+	text-align: justify;
+}
+.page4{
+	width: 24%;
+	height: 400px;
+	/*background-color: blue;*/
+	margin: 7px;
+	float: left;
+	text-align: center;
+}
+.page4 p{
+	text-align: justify;
+}
+section{
+	width: 98%;
+	height: 300px;
+	margin: 0 auto;
+	max-height: 300px;
+}
+section .secA{
+	width: 48%;
+	height: 300px;
+	margin-right:15px;
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	text-align: center;
+	color:#fff;
+}
+section .secA h1{
+	color: white;
+	text-decoration: underline;
+}
+section .secB h1{
+	text-align: center;
+	text-decoration: underline;
+}
+section .secB{
+	width: 48%;
+	height: 300px;
+	margin-left: 14px;
+	/*background-color: red;*/
+	float: left;
+}
+.container{
+	width: 98%;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+.container img{
+	border-radius: 30px;
+	margin-top: 8px;
+}
+footer{
+
+	width: 100%;
+	height: 100px;
+	margin-top: 21px;
+	background-color: rgba(0,0,0,0.2);
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+}

@@ -1,0 +1,173 @@
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+    background-image: url(../images/cb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+		
+	}
+header{
+	
+	width: 100%;
+	height: 150px;
+	background-color: rgba(0,0,0,0.5);
+    padding: 0;
+    margin: 0;
+    position: fixed;
+
+}
+ ul{
+	text-align: center;
+	line-height: 5;
+
+  
+}
+ul li{
+	display: inline-block;
+	padding: 10px 10px;
+	line-height: 1.5;
+	color: white;
+	cursor: pointer;
+	margin: 10px;
+	border-radius: 5px;
+	border:none;
+	
+
+}
+
+header ul li:hover{
+	background-color: darkorange;
+	/*text-transform: uppercase;*/
+	border:1px solid black;
+	box-shadow: 2px 2px 2px #fff000;
+	transform: rotate(20deg);
+
+}
+
+header h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: white;
+}
+header h1:hover{
+	cursor: pointer;
+	color: red;
+}
+
+main{
+	width: 98%;
+	height: 350px;
+	background-color: rgba(0,0,221,0.5);
+	margin: 0 auto;
+	padding-top: 10em;
+
+}
+
+.aside-left{
+	width: 20%;
+	height: 350px;
+	background-color: red;
+	float: left;
+	color: #fff;
+	text-align: center;
+	
+}
+.aside-left:hover{
+	transform: rotate(20deg);
+}
+.main{
+	width: 60%;
+	height: 350px;
+	background-color: darkblue;
+	float: left;
+	color: #fff;
+}
+.aside-right{
+	width: 20%;
+	height: 350px;
+	background-color: orange;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+
+.mainA{
+	width: 50%;
+	height: 350px;
+	background-color:green;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.mainB{
+	width: 50%;
+	height: 350px;
+	background-color:skyblue;
+	float: right;
+	color: #fff;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	background-color: #000;
+	height: 100px;
+	color: white;
+	text-align: center;
+	left: 0;
+	right: 0;
+    bottom: 0;
+	position: fixed;
+}
+
+.duapa{
+	width: 98%;
+	height: 300px;
+	margin: 0 auto;
+	background-color: skyblue;
+	/*padding-top: 10em;*/
+
+}
+.duapa .helen{
+	width: 24%;
+	height: 300px;
+	background-color: darkorange;
+	float: left;
+	margin-right: 15px
+
+
+}
+.duapa .george{
+	width: 24%;
+	height: 300px;
+	background-color: darkorange;
+	float: left;
+	margin-right: 15px
+
+}
+.duapa .shadee{
+	width: 24%;
+	height: 300px;
+	background-color: darkorange;
+	float: left;
+	margin-right: 15px
+
+}
+.duapa .eugene{
+	width: 24%;
+	height: 300px;
+	background-color: darkorange;
+	float: right;
+
+}
+
+.test_vid{
+	width: 98%;
+	height: 300px;
+	margin: 0 auto;
+	background-color: skyblue;
+	/*padding-top: 10em;*/

@@ -1,0 +1,84 @@
+body{
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(10,120,50,0.5),
+		rgba(10,120,50,0.5));
+    background-size: cover;
+	background-position: center;
+
+}
+ul{
+	text-align: center;
+}
+ul li{
+	display: inline-block;
+	line-height: 1.5;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+
+}
+
+.signup-title{
+		margin-top: 100px;
+		color: black;
+		text-transform: uppercase;
+		transition: all 4s ease-in-out;
+	}
+		.signup-title h1{
+		font-size: 32px;
+		line-height: 10px;
+	
+	}
+	form{
+		color: black;
+		margin-top: 5px;
+		transition: all 4s ease-in-out;
+	}
+	.signup-control{
+		width: 600px;
+		color: blue;
+		margin-bottom: 16px;
+		background: transparent;
+		border: none;
+		outline: none;
+	    
+	}
+input{
+	height: 25px;
+	width: 550px;
+	border: none;
+
+
+
+}
+.spio{
+	background: #ff5722;
+	border-color: transparent;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	height :50px;
+	margin-top: 20px;
+
+}
+
+.spio:hover{
+	background-color: darkred;
+	cursor: pointer;
+}
+::placeholder{
+	color: grey;
+
+ 
+}
+.signup-form{
+	width: 650px;
+	margin: 0 auto;
+	box-shadow: 4px 4px 4px 4px;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+}
